@@ -133,7 +133,7 @@ p {
 ;
 box-shadow: 0 0 10px
 #ddd; 
-        /* height: 550px;*/
+         /*height: 590px;*/
          border-radius: 10px;
          border-color: blue;
          }
@@ -403,6 +403,7 @@ li {
 	top: 5px;
 	width: 100%;
 	z-index: 999;
+	margin-top:20px;
 }
 
 .slicknav_nav a {
@@ -5284,3 +5285,48 @@ input[type="radio"]:checked~label {
 }
 /*
 tarrif endingg*/
+
+/*media query for mobiles*/
+/*------------------------------------
+------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+   .first_nav_form{
+    width:138px;
+    text-align: center;
+   } 
+   .sec_nav_form{
+    width:96px;
+    text-align: center;
+   }
+   .third_nav_form{
+    width:111px;
+    text-align: center;
+   }
+  .cars_logo1{
+  	width: 80px;
+  	height: 100px;
+  	margin-top: -10px;
+  }
+  .cars_logo2{
+  	width: 80px;
+  	height: 100px;
+  	  	margin-top: -10px;
+
+  }
+  .cars_logo3{
+  	width: 80px;
+  	height: 100px;
+  	  	margin-top: -10px;
+
+  }
+  .cars_logo4{
+  	width: 120px;
+  	height: 70px;
+  }
+  .cars_logo5{
+  	width: 120px;
+  	height: 70px;
+  }
+}
