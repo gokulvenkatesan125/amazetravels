@@ -5,53 +5,43 @@
             <div class="row">
                <div class="col-lg-3 col-sm-6">
                   <div class="single-footer">
-                     <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.ipsum dolor sit amet, consectetur</p>
-                     <div class="footer-logo">
-                        <a href="index.html">
-                           <img src="assets/img/footer-logo.png" alt="Peulis" />
+                     <p class="mt-5">
+                     <a href="index.php">
+                           <img src="assets/img/logo_1.png" width="180" alt="Amaze Travel Hub" />
                         </a>
-                     </div>
+                     </p>
                   </div>
                </div>
-               <div class="col-lg-3 col-sm-6">
+               <div class="col-lg-6 col-sm-6">
                   <div class="single-footer">
                      <h3>About Us</h3>
                      <ul>
-                        <li><a href="#">Why Us</a>
+                        <li>
+                        <small style="color: #92939c; text-align: justify;">2015 has been a great year for Team of Amaze Travel Hub. We witnessed some important milestones including - completing 4 years of service, extending our footprint to 50 cities and covering over 5 million kilometers of road travel across South India!<br> 
+                        In 2020, our focus will remain on continuously creating differentaited value for the inter-city traveler. We have several exciting offerings lined up, the most prominent being 'Package Offers' to key tourist and buisness destinations. With your support, these initiatives will transform road travel into even more memorable and exciting journeys.
+                        </small>
                         </li>
-                        <li><a href="#">Why Touring</a>
+                        <li>
+                        <h4 style="color: #92939c;">Kannan Balan</h4>
                         </li>
-                        <li><a href="#">Reviews</a>
-                        </li>
-                        <li><a href="#">Travel Insurance</a>
-                        </li>
-                        <li><a href="#">Programme</a>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-sm-6">
-                  <div class="single-footer">
-                     <h3>Support</h3>
-                     <ul>
-                        <li><a href="#">Account</a>
-                        </li>
-                        <li><a href="#">Client Area</a>
-                        </li>
-                        <li><a href="#">Privacy & Policy</a>
-                        </li>
-                        <li><a href="#">Author Hangout</a>
+                        <li>
+                        <h5 style="color: #92939c;">CEO, Amaze Travel Hub</h5>
                         </li>
                      </ul>
                   </div>
                </div>
+
                <div class="col-lg-3 col-sm-6">
                   <div class="single-footer">
-                     <h3>Pay Safely</h3>
-                     <p>Eiusmod tempor incididunt utbor etian dolm magna aliqua enim minim</p>
-                     <div class="payment_image">
-                        <img src="assets/img/creditcard-logo.png" alt="Payment Card" />
-                     </div>
+                     <h3>CONTACT US</h3>
+                     <p>
+                     <i class="fa fa-car"></i><span class="ml-2"> Amaze Travel Hub </span><br>
+                     &nbsp;<i class="fa fa-map-marker mt-3">&nbsp;<span class="ml-2"> Bharath Nagar, Mellur,</span><br>
+                     &nbsp;&nbsp;&nbsp;<span class="ml-2"> Madurai, Tamil Nadu 625020.</span></i><br>
+                     <i class="fa fa-phone mt-3"></i><span class="ml-2"> +91 63699 28702 </span><br>
+                     <i class="fa fa-whatsapp mt-3"></i><span class="ml-2"> +91 95245 40381 </span><br>
+                     <i class="fa fa-envelope-o mt-3"></i><span class="ml-2"> amazetravelhub@gmail.com </span><br>
+                     </p>
                   </div>
                </div>
             </div>

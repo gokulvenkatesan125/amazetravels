@@ -58,11 +58,11 @@
                               
                               </nav> -->
                         <ul class="nav nav-tabs" role="tablist">
-                           <li class=" col-md-4 col-xs-4 nav-item first_nav_form"> <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab"><i class="fa fa-car" id="bld_text">Outstation</i></a>
+                           <li class=" col-md-4 col-xs-4 nav-item first_nav_form"> <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab"><i class="fa fa-car" id="bld_text"> Outstation</i></a>
                            </li>
-                           <li class="col-md-4 col-xs-4  nav-item sec_nav_form" > <a class="nav-link" data-toggle="tab"  href="#tabs-2" role="tab"><i class="fa fa-map-marker" id="bld_text">Local</i></a>
+                           <li class="col-md-4 col-xs-4  nav-item sec_nav_form" > <a class="nav-link" data-toggle="tab"  href="#tabs-2" role="tab"><i class="fa fa-map-marker" id="bld_text"> Local</i></a>
                            </li>
-                           <li class="col-md-4  col-xs-4 nav-item third_nav_form" > <a class="nav-link" data-toggle="tab"  href="#tabs-3" role="tab"><i class="fa fa-plane" id="bld_text">Airport</i></a>
+                           <li class="col-md-4  col-xs-4 nav-item third_nav_form" > <a class="nav-link" data-toggle="tab"  href="#tabs-3" role="tab"><i class="fa fa-plane" id="bld_text"> Airport</i></a>
                            </li>
                         </ul>
                         <!-- Tab panes -->
@@ -70,19 +70,19 @@
                            <div class="tab-pane active" id="tabs-1" role="tabpanel">
                               <div class="form-content">
                                  <div class="row">
-                                    <div class="col-lg-6">
-                                       <p>
+                                    <div class="col-lg-6 one_way_media">
+                                       
                                           <label id="one_way" class="radio-inline">
                                              <input type="radio" name="optradio1" checked><b id="one_way_bld">One Way</b>
                                           </label>
-                                       </p>
+                                       
                                     </div>
-                                    <div class="col-lg-6">
-                                       <p>
+                                    <div class="col-lg-6 round_way_media">
+                                      
                                           <label id="round_trip" class="radio-inline">
                                              <input type="radio" name="optradio1"  checked><b id="two_way_bld">Round Trip</b>
                                           </label>
-                                       </p>
+                                       
                                     </div>
                                  </div>
                                  <div class="row">
@@ -360,203 +360,150 @@
       </div>
    </section>
    <!-- Slider Area End -->
-   <!-- Promo Packages Area Start -->
+    <!-- tariff plan Start -->
    <section class="peulis-promo-package-area section_70">
       <div class="container">
          <div class="row">
             <div class="col-md-12">
-               <div class="site-heading">
-                  <h2>Hot Packages</h2>
-                  <p>Lorem ipsum dolor sit amet, conseetuer adipiscing elit. Aenan comdo igula eget. Aenean massa cum sociis Theme natoque.</p>
+               <div class="site-heading mt-5">
+                  <h2>TARIFFS</h2>
+                  <p>Lorem ipsum dolor sit amet, conseetuer adipiscing elit.</p>
                </div>
+
+
+               <div class="demo">
+        <div class="container demobg">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="pricingTable">
+                        <div class="pricingTable-header">
+                            <h5 class="title"><img src="assets/img/dzire.jpeg" class="rounded-circle" alt="Cinque Terre" width="304" height="236"> </h5>
+                            <h3 class="heading text-center">DZIRE</h3>
+                        </div>
+                        <div class="pricing-content">
+                            <ul>
+                                <li><center> SEATING: 4 PASSENGERS </center></li>
+                            </ul>
+                        </div>
+                        <span class="value">
+                                
+                                <center> Rs.10.5 / km </center>
+                                 </span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="pricingTable">
+                        <div class="pricingTable-header">
+                            <h5 class="title">
+                               <img src="assets/img/etios.jpg" class="rounded-circle" alt="Cinque Terre" width="304" height="236">
+                              </h5>
+                            <h3 class="heading text-center">ETIOS</h3>
+                        </div>
+                        <div class="pricing-content">
+                            <ul>
+                                <li><center> SEATING: 6 PASSENGER </center></li>
+                            </ul>
+                        </div>
+                        <span class="value">
+                                
+                                <center> Rs.10.5 / km </center>
+                                 </span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="pricingTable">
+                        <div class="pricingTable-header">
+                            <h5 class="title">
+                            <img src="assets/img/innovacrysta.jpg" class="rounded-circle" alt="Cinque Terre" width="304" height="236">
+                              </h5>
+                            <h3 class="heading text-center">INNOVA CRYSTA</h3>
+                        </div>
+                        <div class="pricing-content">
+                            <ul>
+                                <li><center> SEATING: 6 PASSENGERS </center></li>
+                            </ul>
+                        </div>
+                        <span class="value">
+                                
+                                <center> Rs.17.5 / km </center>
+                                 </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="demo" >
+        <div class="container demobg">
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="pricingTable">
+                        <div class="pricingTable-header">
+                            <h5 class="title">
+                            <img src="assets/img/innovaa.png" class="rounded-circle" alt="Cinque Terre" width="304" height="236">
+                            </h5>
+                            <h3 class="heading text-center">INNOVA</h3>
+                        </div>
+                        <div class="pricing-content">
+                            <ul>
+                                <li><center> SEATING: 6 PASSENGER </center></li>
+                            </ul>
+                        </div>
+                        <span class="value">
+                                
+                                <center> Rs.13.5 / km </center>
+                                 </span>
+                    </div>
+                </div>
+
+   
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="pricingTable">
+                        <div class="pricingTable-header">
+                            <h5 class="title">
+                            <img src="assets/img/tempo.png" class="rounded-circle" alt="Cinque Terre" width="304" height="236">
+                            </h5>
+                            <h3 class="heading text-center">FORCE TEMPO</h3>
+                        </div>
+                        <div class="pricing-content">
+                            <ul>
+                                <li><center> SEATING: 12 PASSENGERS </center></li>
+                            </ul>
+                        </div>
+                       
+                        <span class="value">
+                                
+                               <center> Rs.17.5 / km </center>
+                                </span>
+               
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
             </div>
          </div>
-         <div class="row">
-            <div class="col-lg-4 pad-right">
-               <div class="single-promo-package">
-                  <div class="promo-package-img">
-                     <a href="#">
-                        <img src="assets/img/promo-pack1.jpg" alt="Promo Packages" />
-                     </a>
-                  </div>
-                  <div class="promo-package-desc">
-                     <div class="package-desc-title">
-                        <h3><a href="#">Shanghai</a></h3>
-                     </div>
-                     <div class="promo-pack-inner">
-                        <div class="package-desc-meta">
-                           <p><span>2</span> Adults, <span>1</span> Kid</p>
-                           <ul>
-                              <li><i class="fa fa-star"></i>
-                              </li>
-                              <li><i class="fa fa-star"></i>
-                              </li>
-                              <li><i class="fa fa-star"></i>
-                              </li>
-                              <li><i class="fa fa-star"></i>
-                              </li>
-                              <li><i class="fa fa-star-o"></i>
-                              </li>
-                           </ul>
-                        </div>
-                        <div class="package-desc-price">
-                           <p>Price <span>$840</span>
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-8">
-               <div class="row">
-                  <div class="col-lg-5 pad-left">
-                     <div class="single-promo-package">
-                        <div class="promo-package-img">
-                           <a href="#">
-                              <img src="assets/img/promo-pack2.jpg" alt="Promo Packages" />
-                           </a>
-                        </div>
-                        <div class="promo-package-desc">
-                           <div class="package-desc-title">
-                              <h3><a href="#">venice - Italy</a></h3>
-                           </div>
-                           <div class="promo-pack-inner">
-                              <div class="package-desc-meta">
-                                 <p><span>2</span> Adults, <span>1</span> Kid</p>
-                                 <ul>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star-o"></i>
-                                    </li>
-                                 </ul>
-                              </div>
-                              <div class="package-desc-price">
-                                 <p>Price <span>$760</span>
-                                 </p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-7">
-                     <div class="single-promo-package">
-                        <div class="promo-package-img">
-                           <a href="#">
-                              <img src="assets/img/promo-pack3.jpg" alt="Promo Packages" />
-                           </a>
-                        </div>
-                        <div class="promo-package-desc">
-                           <div class="package-desc-title">
-                              <h3><a href="#">Portugal</a></h3>
-                           </div>
-                           <div class="promo-pack-inner">
-                              <div class="package-desc-meta">
-                                 <p><span>2</span> Adults, <span>1</span> Kid</p>
-                                 <ul>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star-o"></i>
-                                    </li>
-                                 </ul>
-                              </div>
-                              <div class="package-desc-price">
-                                 <p>Price <span>$620</span>
-                                 </p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-lg-7 pad-left">
-                     <div class="single-promo-package bottom_pack">
-                        <div class="promo-package-img">
-                           <a href="#">
-                              <img src="assets/img/promo-pack-4.jpg" alt="Promo Packages" />
-                           </a>
-                        </div>
-                        <div class="promo-package-desc">
-                           <div class="package-desc-title">
-                              <h3><a href="#">Maldives</a></h3>
-                           </div>
-                           <div class="promo-pack-inner">
-                              <div class="package-desc-meta">
-                                 <p><span>2</span> Adults, <span>1</span> Kid</p>
-                                 <ul>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                 </ul>
-                              </div>
-                              <div class="package-desc-price">
-                                 <p>Price <span>$1100</span>
-                                 </p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-5">
-                     <div class="single-promo-package bottom_pack">
-                        <div class="promo-package-img">
-                           <a href="#">
-                              <img src="assets/img/promo-pack5.jpg" alt="Promo Packages" />
-                           </a>
-                        </div>
-                        <div class="promo-package-desc">
-                           <div class="package-desc-title">
-                              <h3><a href="#">Amsterdam</a></h3>
-                           </div>
-                           <div class="promo-pack-inner">
-                              <div class="package-desc-meta">
-                                 <p><span>2</span> Adults, <span>1</span> Kid</p>
-                                 <ul>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star"></i>
-                                    </li>
-                                    <li><i class="fa fa-star-o"></i>
-                                    </li>
-                                 </ul>
-                              </div>
-                              <div class="package-desc-price">
-                                 <p>Price <span>$550</span>
-                                 </p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+    </div>
+         
    </section>
-   <!-- Promo Packages Area End -->
+   <!-- Tariff plan End -->
    <!-- Popular Tours Area Start -->
    <section class="peulis-popular-tours-area section_70">
       <div class="container">

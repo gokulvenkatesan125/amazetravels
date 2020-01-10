@@ -8,7 +8,7 @@
                   <div class="breadcrumb-box">
                      <h2>Register</h2>
                       <ul class="breadcrumb-inn">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li class="active"><a href="#">Register</a></li>
                       </ul>
                   </div>
