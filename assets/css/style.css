@@ -1,3 +1,4 @@
+
 /*
 *******************************************
 *******************************************
@@ -152,7 +153,7 @@ box-shadow: 0 0 10px
          background-color: #1ec8e7;
          border-radius: 5px;
          padding-top: 17px;
-         padding-right: 10px;
+         padding-right: 12px;
          padding-left: 10px;
          padding-bottom: 10px;
          
@@ -5218,6 +5219,155 @@ input[type="radio"]:checked~label {
 
 
 /*tarrif staring*/
+	.heading-title{
+		margin-bottom: 100px;
+	}
+	.pricingTable{
+		border: 7px solid #f8f8fa;
+		background: #fff;
+		padding: 30px;
+		box-shadow: 0 0 10px #e0e0e6;
+		transform: scale(1);
+		transition: all .5s ease 0s;
+	}
+	
+	.pricingTable:hover{
+		transform: scale(1.1);
+		z-index: 1;
+	}
+	
+	.pricingTable .title{
+		font-size: 14px;
+		color: #c5c5d3;
+		letter-spacing: 3px;
+		margin-bottom: 15px;
+		text-transform: uppercase;
+	}
+	
+	.pricingTable .heading{
+		font-size: 24px;
+		font-weight: bold;
+		color: #31d2b2;
+		margin: 0 0 30px;
+	}
+	
+	.pricingTable .pricing-content ul{
+		margin-bottom: 20px;
+		padding: 0;
+		list-style: none;
+		font-size: 15px;
+		color: #727278;
+		line-height: 40px;
+	}
+	
+	.pricingTable .pricing-content ul li i{
+		font-size: 20px;
+		margin-right: 15px;
+	}
+	
+	.pricingTable .price-Value{
+		text-align: center;
+		margin-bottom: 20px;
+		opacity: 0;
+		transition: all 0.3s ease 0s;
+	}
+	
+	.pricingTable:hover .price-Value{
+		opacity: 1;
+	}
+	
+	.pricingTable .value{
+		font-size: 30px;
+		font-weight: bold;
+		color: #31d2b2;
+		text-align: center;
+		position: relative;
+	}
+	
+	.pricingTable .currency{
+		font-size: 14px;
+		color: #bbb;
+		position: absolute;
+		top: 0;
+		left: -10px;
+	}
+	
+	.pricingTable .month{
+		font-size: 14px;
+		color: #bbb;
+		position: absolute;
+		top: 0;
+		right: -23px;
+	}
+	
+	.pricingTable .pricingTable-signup{
+		display: block;
+		width: 55%;
+		font-size: 14px;
+		color: #fff;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 10px 50px;
+		margin-top: -40px;
+		background: #31d2b2;
+		transition: all 0.5s ease 0s;
+	}
+	
+	.pricingTable:hover .pricingTable-signup,
+	.pricingTable.active .pricingTable-signup{
+		margin-top: 0;
+		width: 100%;
+	}
+	
+	.pricingTable.active{
+		transform: scale(1.1);
+	}
+	
+	.pricingTable.active .price-Value{
+		opacity: 1;
+	}
+	
+	.pricingTable.green .heading,
+	.pricingTable.green .value{
+		color: #a8ec03;
+	}
+	
+	.pricingTable.purple .heading,
+	.pricingTable.purple .value{
+		color: #9679e7;
+	}
+	
+	.pricingTable.green .pricingTable-signup{
+		background: #a8ec03;
+	}
+	
+	.pricingTable.purple .pricingTable-signup{
+		background: #9679e7;
+	}
+
+	.tariff-plan{
+		position: relative;
+		left: 180px;
+		top: 50px;
+	}
+
+	.pricingTable .heading {
+			color: black!important;
+	}
+	.pricingTable .value {
+		color: #66C9E7!important;
+	}
+
+.banner-area {
+    position: inherit !important;
+    top: 0px !important;
+    margin-top: -650px !important;
+}
+/*
+tarrif endingg*/
+
+/*tariff starting*/
+
 .tile
 {
   width:80%;
@@ -5264,69 +5414,103 @@ input[type="radio"]:checked~label {
   position:absolute;
   z-index:1200;
   bottom:0;
-  transition:all .4s linear;}
+  transition:all .4s linear;
+  
+}
 #tile-1 .nav-tabs .active
 {
   background-color:transparent!important;
   border:none!important;
   color:#39bcd3!important;
-}.table thead th {
-    vertical-align: top!important;
 }
-.km{
-    padding-top: 40px!important;
-}
-.cab{
-    padding-top: 40px!important;
-}
-#add_taxi_img{
-	width: 646px;
-    height: 346px;
-}
-/*
-tarrif endingg*/
+
+/*tariff ending*/
+
+
 
 /*media query for mobiles*/
 /*------------------------------------
 ------------------------------------*/
-
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-   .first_nav_form{
-    width:138px;
+
+.first_nav_form{
+    width:124px;
     text-align: center;
    } 
    .sec_nav_form{
-    width:96px;
+    width:80px;
     text-align: center;
    }
    .third_nav_form{
-    width:111px;
+    width:96px;
     text-align: center;
    }
   .cars_logo1{
-  	width: 80px;
-  	height: 100px;
-  	margin-top: -10px;
+        width: 92px;
+    height: 100px;
+    
   }
+  #bld_text{
+  margin-left: -14px;
+}
+
   .cars_logo2{
-  	width: 80px;
-  	height: 100px;
-  	  	margin-top: -10px;
-
-  }
+    width: 91px;
+    height: 100px;
+     padding-top: 20px;
+      }  
   .cars_logo3{
-  	width: 80px;
-  	height: 100px;
-  	  	margin-top: -10px;
-
+        width: 96px;
+    height: 100px;
+   
   }
   .cars_logo4{
-  	width: 120px;
-  	height: 70px;
+            width: 143px;
+    height: 74px;
   }
   .cars_logo5{
-  	width: 120px;
-  	height: 70px;
-  }
+          width: 142px;
+    height: 77px;
 }
+.banner-area {
+    position: inherit !important;
+    top: 0px !important;
+    margin-top: -650px !important;
+}
+
+.round_way_media{
+  margin-top:10px;
+width: 170px;
+height: 40px;
+padding-top: 10px;
+margin-bottom:15px;
+}
+.one_way_media{
+  margin-top:10px;
+ width:170px;
+height: 40px;
+padding-top: 10px;
+}
+
+.banner-area {
+    position: inherit !important;
+    top: 0px !important;
+    margin-top: -385px !important;
+}
+
+.peulis-slide.owl-carousel.owl-loaded.owl-drag {
+    visibility: hidden;
+}
+
+section.peulis-slider-area.overlay {
+  background: url(https://www.elsetge.cat/myimg/f/215-2152256_android-hd-hd-theme-wallpaper-for-mobile.jpg);
+  padding-bottom:50px;
+}
+.banner-welcome {
+    display: none;
+}
+
+
+}
+
+ 
