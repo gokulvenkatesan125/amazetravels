@@ -12,6 +12,7 @@
                      </p>
                   </div>
                </div>
+               <a name="about"></a>
                <div class="col-lg-6 col-sm-6">
                   <div class="single-footer">
                      <h3>About Us</h3>
@@ -21,11 +22,9 @@
                         In 2020, our focus will remain on continuously creating differentaited value for the inter-city traveler. We have several exciting offerings lined up, the most prominent being 'Package Offers' to key tourist and buisness destinations. With your support, these initiatives will transform road travel into even more memorable and exciting journeys.
                         </small>
                         </li>
+                        
                         <li>
-                        <h4 style="color: #92939c;">Kannan Balan</h4>
-                        </li>
-                        <li>
-                        <h5 style="color: #92939c;">CEO, Amaze Travel Hub</h5>
+                        <h5 style="color: #92939c;">Amaze Travel Hub Team</h5>
                         </li>
                      </ul>
                   </div>

@@ -41,7 +41,11 @@
    <script type='text/javascript' src='http://code.jquery.com/jquery-1.11.0.js'></script>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/clockpicker/0.0.7/bootstrap-clockpicker.min.css" integrity="sha256-lBtf6tZ+SwE/sNMR7JFtCyD44snM3H2FrkB/W400cJA=" crossorigin="anonymous" />
    <script src="https://cdnjs.cloudflare.com/ajax/libs/clockpicker/0.0.7/bootstrap-clockpicker.min.js" integrity="sha256-LPgEyZbedErJpp8m+3uasZXzUlSl9yEY4MMCEN9ialU=" crossorigin="anonymous"></script>
-   
+ <style>  
+   html {
+  scroll-behavior: smooth;
+}
+</style>
 </head>
 
 <body>
@@ -85,13 +89,7 @@
                            </li>
                         </ul> 
                      </div>
-                     <div class="header-top-auth">
-                           <ul>
-                              <li><i class="fa fa-user"></i></li>
-                              <li class="separator"><a href="login.php">Login</a></li>
-                              <li><a href="register.php">Register</a></li>
-                           </ul>
-                     </div>
+                    
                   </div>
                </div>
             </div>
@@ -121,13 +119,16 @@
                                  <ul id="navigation_menu">
                                     <li class="active"><a href="index.php">Home</a>
                                     </li>
-                                    <li> <a href="#">About Us</a>
+                                    <li> <a href="#about">About Us</a>
                                     </li>
-                                    <li> <a href="tarrif.php">Tarrif</a>
+                                    </li>
+                                    <li> <a href="service.php">Service</a>
+                                    </li>
+                                    <li> <a href="tarrif.php">Tariff</a>
                                     </li>
                                     <li> <a href="attachtaxi.php">Attach Taxi</a>
                                     </li>
-                                    <li><a href="contact.html">Contact Us</a>
+                                    <li><a href="contact.php">Contact Us</a>
                                     </li>
                                  </ul>
                               </nav>

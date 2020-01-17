@@ -37,26 +37,17 @@
   <table class="table table-responsive-sm table-bordered">
   <thead class="thead-dark">
     <tr>
-      <th scope="col" rowspan="2" class="km text-center">KM</th>
-      <th scope="col" rowspan="2" class="km text-center">Free Hours</th>
-      <th scope="col" class="text-center">DZIRE</th>
-      <th scope="col" class="text-center">ETIOS</th>
-      <th scope="col" class="text-center">INNOVA</th>
-      <th scope="col" class="text-center">INNOVA CRYSTA</th>
-      <th scope="col" class="text-center">FORCE TEMPO</th>
-    </tr>
-    <tr>
-      <th scope="col" class="text-center">A/C</th>
-      <th scope="col" class="text-center">A/C</th>
-      <th scope="col" class="text-center">A/C</th>
-      <th scope="col" class="text-center">A/C</th>
-      <th scope="col" class="text-center">A/C</th>
+      <th scope="col" class="km text-center">Km's</th>
+      <th scope="col" class="text-center">Dzire (A/C)</th>
+      <th scope="col" class="text-center">Etios (A/C)</th>
+      <th scope="col" class="text-center">Innova (A/C)</th>
+      <th scope="col" class="text-center">Innova Crysta (A/C)</th>
+      <th scope="col" class="text-center">Force Tempo (A/C)</th>
     </tr>
   </thead>
   <tbody>
     <tr class="text-center">
-      <td>225/Min</td>
-      <td>#</td>
+      <td>225/Minimum</td>
       <td>2362.5</td>
       <td>2362.5</td>
       <td>—</td>
@@ -64,8 +55,7 @@
       <td>—</td>
     </tr>
     <tr class="text-center">
-      <td>250/Min</td>
-      <td>#</td>
+      <td>250/Minimum</td>
       <td>2625</td>
       <td>2625</td>
       <td>3375</td>
@@ -73,8 +63,7 @@
       <td>—</td>
     </tr>
     <tr class="text-center">
-      <td>300/Min</td>
-      <td>#</td>
+      <td>300/Minimum</td>
       <td>3150</td>
       <td>3150</td>
       <td>4050</td>
@@ -96,18 +85,15 @@
 <table class="table table-responsive-sm table-bordered">
   <thead class="thead-dark">
     <tr>
-      <th scope="col" rowspan="2" class="cab text-center">CAB</th>
-      <th scope="col" class="text-center" colspan="4" >LOCAL PACKAGE</th>
-    </tr>
-    <tr>
+    <th scope="col" class="cab text-center">Vehicle's</th>
       <th scope="col" class="text-center">8Hrs/80Kms</th>
       <th scope="col" class="text-center">12Hrs/120Kms</th>
       <th scope="col" class="text-center">Extra cost/Hr</th>
-      <th scope="col" class="text-center">Extra cost/Km</th>
+      <th scope="col" class="text-center">Extra cost/Kms</th>
     </tr>
   </thead>
   <tbody>
-    <tr class="text-center">
+  <tr class="text-center">
       <td>DZIRE</td>
       <td>1960</td>
       <td>2240</td>
@@ -142,7 +128,6 @@
       <td>300</td>
       <td>17.5</td>
     </tr>
-    
   </tbody>
 </table>
 </table>

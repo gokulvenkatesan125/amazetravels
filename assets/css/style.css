@@ -70,6 +70,16 @@ This files contents are outlined below >>>>
 /*================================================
 02 - DEFAULT CSS
 ==================================================*/
+#form_hide{
+	margin-left: 10px;
+}
+
+.form_hide_h{
+color:white; 
+text-align: center;
+ background-color:#1ec8e7;
+ font-size: 32px;
+}
 
 body {
 	font-size: 15px;
@@ -97,6 +107,9 @@ p {
 	margin: 0
 }
 
+#myDIV{
+	display: none;
+}
 .no-pad-left {
 	padding-left: 0
 }
@@ -116,7 +129,9 @@ p {
          padding-left: 35px;
          padding-right: 35px;
       }
-
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+background-color:#1ec8e7;
+}
 .no-pad-all {
 	padding: 0
 }
@@ -138,6 +153,23 @@ box-shadow: 0 0 10px
          border-radius: 10px;
          border-color: blue;
          }
+         #select_car_tab1{
+ padding-left: 160px;
+         }
+          #select_car_tab2{
+ padding-right: 13px;
+         }
+          #select_car_tab3{
+ padding-right: 160px;
+         }
+         #select_tab{
+         	display: none;
+         }
+         .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
          #cars_logo{
          margin-top: 12px;
          background-color: #1ec8e7;
@@ -181,7 +213,8 @@ box-shadow: 0 0 10px
          font-weight: 900;
        }
        #bld_text{
-        font-weight: 900; 
+        font-weight: 900;
+        color: black !important; 
        }
        #bld_text_logo{
         font-weight: 700; 
@@ -1490,13 +1523,7 @@ li {
 	width: 100%;
 }
 
-.banner-area {
-	position: absolute;
-	top: 25%;
-	z-index: 9;
-	width: 100%;	
-	text-align: center;
-}
+
 
 .banner-welcome {
 	width: 100%;
@@ -4032,7 +4059,24 @@ p.date {
 	top: 15px;
 	font-size: 12px
 }
-
+.panel-group{
+	padding-right: 22px;
+	padding-left: 22px;
+}
+#header_ser{
+	text-align: center;
+	font-weight: 900;
+	color: black;
+	padding: 18px;
+	background-color:#1ad1ff;
+}
+.gmd-5 {
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  -ms-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  -o-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
 .tour-filter .nice-select {
 	border: medium none;
 	padding-left: 10px
@@ -4040,6 +4084,9 @@ p.date {
 
 .ceckbox_filter {
 	margin-top: 20px
+}
+#form1{
+
 }
 
 .tour-filter p button {
@@ -5362,12 +5409,23 @@ input[type="radio"]:checked~label {
     position: inherit !important;
     top: 0px !important;
     margin-top: -650px !important;
+
+	
+	z-index: 9;
+	width: 100%;	
+	text-align: center;
+
 }
 /*
 tarrif endingg*/
 
 /*tariff starting*/
-
+.box{  
+        display: none;
+        padding-left: 222px;
+        padding-right: 222px;
+        border-color: red;
+    }
 .tile
 {
   width:80%;
@@ -5375,14 +5433,13 @@ tarrif endingg*/
 }
 #tile-1 .tab-pane
 {
-  padding:15px;
+  padding:-2px;
   height:80px;
-}
+	}
 #tile-1 .nav-tabs
 {
   position:relative;
   border:none!important;
-  background-color:#fff;
 /*   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2); */
   border-radius:6px;
 }
@@ -5399,10 +5456,17 @@ tarrif endingg*/
   border:none!important;
   color:#333;
 }
-#tile-1 .nav-tabs a:hover
+/*#tile-1 .nav-tabs a:hover
 {
   background-color:#fff!important;
   border:none;
+}*/
+#type
+{
+	color: black;
+}
+.scrol_color{
+	color: black;
 }
 #tile-1 .slider
 {
@@ -5424,9 +5488,12 @@ tarrif endingg*/
   color:#39bcd3!important;
 }
 
-/*tariff ending*/
-
-
+.thead-dark{
+	padding-left: 122px;
+}
+section.peulis-slider-area.overlay {
+  padding-bottom:75px;
+}
 
 /*media query for mobiles*/
 /*------------------------------------
@@ -5452,6 +5519,7 @@ tarrif endingg*/
   }
   #bld_text{
   margin-left: -14px;
+  color: black;
 }
 
   .cars_logo2{
@@ -5510,7 +5578,4 @@ section.peulis-slider-area.overlay {
     display: none;
 }
 
-
 }
-
- 
